@@ -1,0 +1,14 @@
+
+<div class="menu">
+  <h2>MENU</h2>
+
+  <p onclick="showPage('home')">Home</p>
+  <p onclick="showPage('about')">About</p>
+  <p onclick="showPage('gallery')">Gallery</p>
+  <p onclick="showPage('contact')">Contact</p>
+</div>
+
+<div class="content" id="content">
+  <h2>Welcome!</h2>
+  <p>यह मेरी अपनी वेबसाइट है।</p>
+</div>
