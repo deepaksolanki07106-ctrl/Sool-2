@@ -1,0 +1,72 @@
+
+/* पूरी वेबसाइट का Background */
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* सबसे ऊपर की बड़ी Heading */
+h1 {
+  background-color: #123c69;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 25px;
+  margin: 0;
+  border-bottom: 5px solid orange;
+}
+
+/* Menu और जानकारी को अगल-बगल रखना */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* बाईं तरफ का Menu */
+.menu {
+  background-color: #dbeafe;
+  width: 200px;
+  padding: 15px;
+  border: 3px solid #123c69;
+  border-radius: 10px;
+}
+
+/* Menu की Heading */
+.menu h2 {
+  color: #123c69;
+  text-align: center;
+}
+
+/* Home, About, Gallery, Contact */
+.menu p {
+  background-color: white;
+  color: #123c69;
+  padding: 12px;
+  border: 1px solid #93c5fd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* दाईं तरफ जानकारी */
+.content {
+  background-color: white;
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #123c69;
+  border-radius: 10px;
+}
+
+/* जानकारी की Heading */
+.content h2 {
+  color: #e67e22;
+  font-size: 28px;
+}
+
+/* जानकारी के Paragraph का रंग */
+.content p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.6;
+}
